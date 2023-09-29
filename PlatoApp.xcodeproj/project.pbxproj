@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58ABEFCE2ABDBDFE00E19783 /* ExpandedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ABEFCD2ABDBDFE00E19783 /* ExpandedCardView.swift */; };
+		58ABEFD02ABDC18C00E19783 /* FavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ABEFCF2ABDC18C00E19783 /* FavView.swift */; };
+		58D922AB2AB2361C006D3678 /* Platô.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D922AA2AB2361C006D3678 /* Platô.swift */; };
+		58D922AD2AB2361C006D3678 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D922AC2AB2361C006D3678 /* ContentView.swift */; };
+		58D922AF2AB2361E006D3678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58D922AE2AB2361E006D3678 /* Assets.xcassets */; };
+		58D922B32AB2361E006D3678 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58D922B22AB2361E006D3678 /* Preview Assets.xcassets */; };
+		58D922BD2AB2361E006D3678 /* PlatoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D922BC2AB2361E006D3678 /* PlatoAppTests.swift */; };
+		58D922C72AB2361E006D3678 /* PlatoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D922C62AB2361E006D3678 /* PlatoAppUITests.swift */; };
+		58D922C92AB2361E006D3678 /* PlatoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D922C82AB2361E006D3678 /* PlatoAppUITestsLaunchTests.swift */; };
+		58D922D62AB2366C006D3678 /* Inicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D922D52AB2366C006D3678 /* Inicio.swift */; };
+		58D922D82AB236C6006D3678 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D922D72AB236C6006D3678 /* PostView.swift */; };
+		58D922DA2AB23769006D3678 /* Buscar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D922D92AB23769006D3678 /* Buscar.swift */; };
+		58D922DC2AB2377D006D3678 /* Notificacoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D922DB2AB2377D006D3678 /* Notificacoes.swift */; };
+		58D922DE2AB2378B006D3678 /* Perfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D922DD2AB2378B006D3678 /* Perfil.swift */; };
+		58D922E02AB23895006D3678 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D922DF2AB23895006D3678 /* ModalView.swift */; };
+		58D922E22AB238B3006D3678 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D922E12AB238B3006D3678 /* CardView.swift */; };
+		58D922E42AB238E7006D3678 /* NewPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D922E32AB238E7006D3678 /* NewPostView.swift */; };
+		58D922E62AB2393C006D3678 /* JustifiedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D922E52AB2393C006D3678 /* JustifiedText.swift */; };
+		58D922E82AB23C10006D3678 /* ConfiguracoesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D922E72AB23C10006D3678 /* ConfiguracoesView.swift */; };
+		58D922EA2AB23C7C006D3678 /* Favoritos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D922E92AB23C7C006D3678 /* Favoritos.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58D922B92AB2361E006D3678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58D9229F2AB2361C006D3678 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58D922A62AB2361C006D3678;
+			remoteInfo = PlatoApp;
+		};
+		58D922C32AB2361E006D3678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58D9229F2AB2361C006D3678 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58D922A62AB2361C006D3678;
+			remoteInfo = PlatoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58ABEFCD2ABDBDFE00E19783 /* ExpandedCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedCardView.swift; sourceTree = "<group>"; };
+		58ABEFCF2ABDC18C00E19783 /* FavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavView.swift; sourceTree = "<group>"; };
+		58D922A72AB2361C006D3678 /* PlatoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D922AA2AB2361C006D3678 /* Platô.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Platô.swift"; sourceTree = "<group>"; };
+		58D922AC2AB2361C006D3678 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		58D922AE2AB2361E006D3678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58D922B02AB2361E006D3678 /* PlatoApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlatoApp.entitlements; sourceTree = "<group>"; };
+		58D922B22AB2361E006D3678 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58D922B82AB2361E006D3678 /* PlatoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D922BC2AB2361E006D3678 /* PlatoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatoAppTests.swift; sourceTree = "<group>"; };
+		58D922C22AB2361E006D3678 /* PlatoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D922C62AB2361E006D3678 /* PlatoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatoAppUITests.swift; sourceTree = "<group>"; };
+		58D922C82AB2361E006D3678 /* PlatoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		58D922D52AB2366C006D3678 /* Inicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inicio.swift; sourceTree = "<group>"; };
+		58D922D72AB236C6006D3678 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		58D922D92AB23769006D3678 /* Buscar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buscar.swift; sourceTree = "<group>"; };
+		58D922DB2AB2377D006D3678 /* Notificacoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notificacoes.swift; sourceTree = "<group>"; };
+		58D922DD2AB2378B006D3678 /* Perfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfil.swift; sourceTree = "<group>"; tabWidth = 4; };
+		58D922DF2AB23895006D3678 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		58D922E12AB238B3006D3678 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		58D922E32AB238E7006D3678 /* NewPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostView.swift; sourceTree = "<group>"; };
+		58D922E52AB2393C006D3678 /* JustifiedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustifiedText.swift; sourceTree = "<group>"; };
+		58D922E72AB23C10006D3678 /* ConfiguracoesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfiguracoesView.swift; sourceTree = "<group>"; };
+		58D922E92AB23C7C006D3678 /* Favoritos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favoritos.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58D922A42AB2361C006D3678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D922B52AB2361E006D3678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D922BF2AB2361E006D3678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58D9229E2AB2361C006D3678 = {
+			isa = PBXGroup;
+			children = (
+				58ABEFCF2ABDC18C00E19783 /* FavView.swift */,
+				58ABEFCD2ABDBDFE00E19783 /* ExpandedCardView.swift */,
+				58D922E92AB23C7C006D3678 /* Favoritos.swift */,
+				58D922E72AB23C10006D3678 /* ConfiguracoesView.swift */,
+				58D922E52AB2393C006D3678 /* JustifiedText.swift */,
+				58D922E32AB238E7006D3678 /* NewPostView.swift */,
+				58D922E12AB238B3006D3678 /* CardView.swift */,
+				58D922DF2AB23895006D3678 /* ModalView.swift */,
+				58D922DD2AB2378B006D3678 /* Perfil.swift */,
+				58D922DB2AB2377D006D3678 /* Notificacoes.swift */,
+				58D922D92AB23769006D3678 /* Buscar.swift */,
+				58D922D72AB236C6006D3678 /* PostView.swift */,
+				58D922D52AB2366C006D3678 /* Inicio.swift */,
+				58D922A92AB2361C006D3678 /* PlatoApp */,
+				58D922BB2AB2361E006D3678 /* PlatoAppTests */,
+				58D922C52AB2361E006D3678 /* PlatoAppUITests */,
+				58D922A82AB2361C006D3678 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58D922A82AB2361C006D3678 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58D922A72AB2361C006D3678 /* PlatoApp.app */,
+				58D922B82AB2361E006D3678 /* PlatoAppTests.xctest */,
+				58D922C22AB2361E006D3678 /* PlatoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58D922A92AB2361C006D3678 /* PlatoApp */ = {
+			isa = PBXGroup;
+			children = (
+				58D922AA2AB2361C006D3678 /* Platô.swift */,
+				58D922AC2AB2361C006D3678 /* ContentView.swift */,
+				58D922AE2AB2361E006D3678 /* Assets.xcassets */,
+				58D922B02AB2361E006D3678 /* PlatoApp.entitlements */,
+				58D922B12AB2361E006D3678 /* Preview Content */,
+			);
+			path = PlatoApp;
+			sourceTree = "<group>";
+		};
+		58D922B12AB2361E006D3678 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				58D922B22AB2361E006D3678 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		58D922BB2AB2361E006D3678 /* PlatoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				58D922BC2AB2361E006D3678 /* PlatoAppTests.swift */,
+			);
+			path = PlatoAppTests;
+			sourceTree = "<group>";
+		};
+		58D922C52AB2361E006D3678 /* PlatoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58D922C62AB2361E006D3678 /* PlatoAppUITests.swift */,
+				58D922C82AB2361E006D3678 /* PlatoAppUITestsLaunchTests.swift */,
+			);
+			path = PlatoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58D922A62AB2361C006D3678 /* PlatoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58D922CC2AB2361E006D3678 /* Build configuration list for PBXNativeTarget "PlatoApp" */;
+			buildPhases = (
+				58D922A32AB2361C006D3678 /* Sources */,
+				58D922A42AB2361C006D3678 /* Frameworks */,
+				58D922A52AB2361C006D3678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlatoApp;
+			productName = PlatoApp;
+			productReference = 58D922A72AB2361C006D3678 /* PlatoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58D922B72AB2361E006D3678 /* PlatoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58D922CF2AB2361E006D3678 /* Build configuration list for PBXNativeTarget "PlatoAppTests" */;
+			buildPhases = (
+				58D922B42AB2361E006D3678 /* Sources */,
+				58D922B52AB2361E006D3678 /* Frameworks */,
+				58D922B62AB2361E006D3678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58D922BA2AB2361E006D3678 /* PBXTargetDependency */,
+			);
+			name = PlatoAppTests;
+			productName = PlatoAppTests;
+			productReference = 58D922B82AB2361E006D3678 /* PlatoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58D922C12AB2361E006D3678 /* PlatoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58D922D22AB2361E006D3678 /* Build configuration list for PBXNativeTarget "PlatoAppUITests" */;
+			buildPhases = (
+				58D922BE2AB2361E006D3678 /* Sources */,
+				58D922BF2AB2361E006D3678 /* Frameworks */,
+				58D922C02AB2361E006D3678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58D922C42AB2361E006D3678 /* PBXTargetDependency */,
+			);
+			name = PlatoAppUITests;
+			productName = PlatoAppUITests;
+			productReference = 58D922C22AB2361E006D3678 /* PlatoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58D9229F2AB2361C006D3678 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					58D922A62AB2361C006D3678 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					58D922B72AB2361E006D3678 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 58D922A62AB2361C006D3678;
+					};
+					58D922C12AB2361E006D3678 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 58D922A62AB2361C006D3678;
+					};
+				};
+			};
+			buildConfigurationList = 58D922A22AB2361C006D3678 /* Build configuration list for PBXProject "PlatoApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58D9229E2AB2361C006D3678;
+			productRefGroup = 58D922A82AB2361C006D3678 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58D922A62AB2361C006D3678 /* PlatoApp */,
+				58D922B72AB2361E006D3678 /* PlatoAppTests */,
+				58D922C12AB2361E006D3678 /* PlatoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58D922A52AB2361C006D3678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D922B32AB2361E006D3678 /* Preview Assets.xcassets in Resources */,
+				58D922AF2AB2361E006D3678 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D922B62AB2361E006D3678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D922C02AB2361E006D3678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58D922A32AB2361C006D3678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D922AD2AB2361C006D3678 /* ContentView.swift in Sources */,
+				58D922E22AB238B3006D3678 /* CardView.swift in Sources */,
+				58D922DE2AB2378B006D3678 /* Perfil.swift in Sources */,
+				58D922E62AB2393C006D3678 /* JustifiedText.swift in Sources */,
+				58D922E02AB23895006D3678 /* ModalView.swift in Sources */,
+				58D922DA2AB23769006D3678 /* Buscar.swift in Sources */,
+				58ABEFD02ABDC18C00E19783 /* FavView.swift in Sources */,
+				58D922E82AB23C10006D3678 /* ConfiguracoesView.swift in Sources */,
+				58D922DC2AB2377D006D3678 /* Notificacoes.swift in Sources */,
+				58D922AB2AB2361C006D3678 /* Platô.swift in Sources */,
+				58D922D82AB236C6006D3678 /* PostView.swift in Sources */,
+				58D922D62AB2366C006D3678 /* Inicio.swift in Sources */,
+				58D922EA2AB23C7C006D3678 /* Favoritos.swift in Sources */,
+				58D922E42AB238E7006D3678 /* NewPostView.swift in Sources */,
+				58ABEFCE2ABDBDFE00E19783 /* ExpandedCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D922B42AB2361E006D3678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D922BD2AB2361E006D3678 /* PlatoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D922BE2AB2361E006D3678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D922C92AB2361E006D3678 /* PlatoAppUITestsLaunchTests.swift in Sources */,
+				58D922C72AB2361E006D3678 /* PlatoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58D922BA2AB2361E006D3678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58D922A62AB2361C006D3678 /* PlatoApp */;
+			targetProxy = 58D922B92AB2361E006D3678 /* PBXContainerItemProxy */;
+		};
+		58D922C42AB2361E006D3678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58D922A62AB2361C006D3678 /* PlatoApp */;
+			targetProxy = 58D922C32AB2361E006D3678 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		58D922CA2AB2361E006D3678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58D922CB2AB2361E006D3678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		58D922CD2AB2361E006D3678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PlatoApp/PlatoApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlatoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = FJ88J69NXX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Plato.PlatoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58D922CE2AB2361E006D3678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PlatoApp/PlatoApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlatoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = FJ88J69NXX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Plato.PlatoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58D922D02AB2361E006D3678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 328R279NC3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Plato.PlatoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlatoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlatoApp";
+			};
+			name = Debug;
+		};
+		58D922D12AB2361E006D3678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 328R279NC3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Plato.PlatoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlatoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlatoApp";
+			};
+			name = Release;
+		};
+		58D922D32AB2361E006D3678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 328R279NC3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Plato.PlatoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlatoApp;
+			};
+			name = Debug;
+		};
+		58D922D42AB2361E006D3678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 328R279NC3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Plato.PlatoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlatoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58D922A22AB2361C006D3678 /* Build configuration list for PBXProject "PlatoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D922CA2AB2361E006D3678 /* Debug */,
+				58D922CB2AB2361E006D3678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58D922CC2AB2361E006D3678 /* Build configuration list for PBXNativeTarget "PlatoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D922CD2AB2361E006D3678 /* Debug */,
+				58D922CE2AB2361E006D3678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58D922CF2AB2361E006D3678 /* Build configuration list for PBXNativeTarget "PlatoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D922D02AB2361E006D3678 /* Debug */,
+				58D922D12AB2361E006D3678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58D922D22AB2361E006D3678 /* Build configuration list for PBXNativeTarget "PlatoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D922D32AB2361E006D3678 /* Debug */,
+				58D922D42AB2361E006D3678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58D9229F2AB2361C006D3678 /* Project object */;
+}
